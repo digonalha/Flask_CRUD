@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="utf-8">
+        <title>Atualização de Cadastro</title>
+    </head>
+    <body>
+        <h1>Atualizar Informações</h1>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td><input type="text" name="nome" value="{{ pessoa.nome }}"></td>
+                </tr>
+                <tr>
+                    <td>Telefone</td>
+                    <td><input type="text" name="telefone" value="{{ pessoa.telefone }}"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" value="{{ pessoa.email }}"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Atualizar">
+
+
+        </form>
+    </body>
+</html>
