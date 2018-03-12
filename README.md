@@ -1,2 +1,2 @@
-# crud_com_flask_python
+# Flask CRUD
 Crud básico utilizando o flask. 
